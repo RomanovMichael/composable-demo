@@ -1,39 +1,28 @@
-# composable-demo
+# Debounced Search Demo (Vue 3 + TypeScript + Composition API)
 
-This template should help get you started developing with Vue 3 in Vite.
+Демо создания кастомного composable `useDebouncedSearch` для выполнения отложенного (debounced) поиска с API.
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Стек
 
-## Type Support for `.vue` Imports in TS
+- Vue 3
+- Composition API
+- TypeScript
+- Pinia (опционально)
+- lodash-es (debounce)
+- Vite
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+---
 
-## Customize configuration
+## 📦 Функционал
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+✅ Поле поиска с двусторонним связыванием (`v-model`)  
+✅ Отложенный запрос к API с помощью lodash `debounce`  
+✅ Индикация загрузки (`Загрузка...`)  
+✅ Отображение результатов в `<pre>` с корректной версткой  
+✅ Отмена дебаунса при размонтировании компонента
 
-## Project Setup
+---
+<img width="1438" alt="Снимок экрана 2025-05-02 в 09 28 32" src="https://github.com/user-attachments/assets/d58078da-d3f9-4fb0-9d96-374913530193" />
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
