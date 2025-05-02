@@ -2,6 +2,9 @@
 
 Демо создания кастомного composable `useDebouncedSearch` для выполнения отложенного (debounced) поиска с API.
 
+
+<img width="1438" alt="Снимок экрана 2025-05-02 в 09 28 32" src="https://github.com/user-attachments/assets/d58078da-d3f9-4fb0-9d96-374913530193" />
+
 ---
 
 ## 🚀 Стек
@@ -24,5 +27,4 @@
 ✅ Отмена дебаунса при размонтировании компонента
 
 ---
-<img width="1438" alt="Снимок экрана 2025-05-02 в 09 28 32" src="https://github.com/user-attachments/assets/d58078da-d3f9-4fb0-9d96-374913530193" />
 
